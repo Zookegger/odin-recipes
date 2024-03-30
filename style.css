@@ -1,8 +1,10 @@
 body{
     background-image: url("https://i.pinimg.com/originals/71/48/62/7148625dbbbc8b1e703ca9ab9b0beb65.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: auto;
+    height: 100%;
     width: auto;
 }
 
@@ -17,16 +19,47 @@ h1 {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
 }
-
+.recipes{
+    border: 2px solid black;
+    background-color: mintcream;
+    margin: 0 auto;
+    min-width: 16cm;
+    max-width: 16cm;
+}
 .recipes ul{
-    font-size: 21px; 
-    padding: 0;
-    margin: 2px 2px 0 0;
+    display: flex;
+    list-style: none;
     text-align: center;
+    padding-inline-start: 0;
+}
+.recipes li {
+    margin: 0 auto;
+    min-width: 4cm;
+}
+
+.recipes li img {
+    border: 2px solid white;
+}
+
+span {
+    line-height: 2;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    padding: auto;
 }
 
 .recipes li a{
-    display: inline;
-    color: black;
-    line-height: 3cap;
+    display: inline-block;
+    padding: 10px;
+    width: 140px;
+    min-width: 140px;
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 140px;
+    background-color: rgba(167, 121, 62, 0.671);
+    color: white;
+    font-size: auto;
 }

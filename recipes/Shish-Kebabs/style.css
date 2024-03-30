@@ -10,61 +10,60 @@ h1 {
     padding-bottom: 2%;
 }
 
+h2 {
+    padding: 2%;
+    font-size: 40px;
+}
+
 h3{
     padding-top: 2%;
     font-size: 30px;
 }
 
-h1,h3{
-    margin-left: 2%;
+.container section[id="Picture representing final product"] p {
+    margin: 0 auto;
+    width: 50px;
+    font-weight: 500;
+    font-size: auto;
+    padding: 20px;
+    min-width: 13em;
+    height: auto;
+    justify-content: left;
+    text-align: justify;
+    background-color: white;
 }
 
-.container{ 
-    max-width: max-content;
-    margin: 0 0 0 15%;
+.container section[id="Picture representing final product"]{ 
     display: flex;
     flex-wrap: wrap;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 0 0 auto 15%;
     outline: 2px solid black;
 }
 
-@media only screen and (min-width: 50px) {
-    .container {
-        max-width: fit-content;
-    }
-}
-
 figure{
+    padding: 0 10px 0 10px;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
 }
 
 figure figcaption {
     text-align: center;
 }
 
-p {
-    margin: 0 auto;
-    width: 40px;
-    font-weight: 500;
-    font-size: 25px;
-    padding: 20px;
-    min-width: 13em;
-    height: 11.5em;
-    justify-content: left;
-    text-align: justify;
-    background-color: white;
-}
-
-h1, h3, ol li, ul li {
+h1, h2, h3, p, ol li, ul li {
     margin: 0 auto;
     width: 70%;
 }
+
+
 
 li strong{
     font-size: 25px;
 }
 
-ul li, ol li{
+p, ul li, ol li{
     line-height: 34px;
     text-align: justify;
     font-size: 23px;
